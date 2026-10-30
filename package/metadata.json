@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "electriccowboy"
+            }
+        ],
+        "BugReportUrl": "https://github.com/ElectricCowBoy123/plasma-controller-battery/issues",
+        "Category": "System Information",
+        "Description": "Battery level of your PlayStation controller (DualShock 4 / DualSense) in the panel, with a pie chart popup and one-click Bluetooth disconnect",
+        "Icon": "input-gamepad",
+        "Id": "io.github.electriccowboy123.controllerbattery",
+        "License": "GPL-2.0-or-later",
+        "Name": "PS Controller Battery",
+        "Version": "1.0.0",
+        "Website": "https://github.com/ElectricCowBoy123/plasma-controller-battery"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

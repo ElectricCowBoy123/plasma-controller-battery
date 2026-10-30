@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="iconName" type="String">
+      <default>input-gamepad-symbolic</default>
+    </entry>
+    <entry name="monochrome" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showPercentAlways" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="badgeStyle" type="Int">
+      <!-- 0 = classic, 1 = bold, 2 = gauge -->
+      <default>1</default>
+    </entry>
+    <entry name="clickAction" type="Int">
+      <!-- 0 = show details, 1 = disconnect over Bluetooth -->
+      <default>0</default>
+    </entry>
+    <entry name="hideWhenDisconnected" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="chartStyle" type="Int">
+      <!-- 0 = pie, 1 = ring -->
+      <default>0</default>
+    </entry>
+    <entry name="useAccentColor" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="chartColor" type="Color">
+      <default>#3daee9</default>
+    </entry>
+    <entry name="lowColor" type="Color">
+      <default>#da4453</default>
+    </entry>
+    <entry name="lowThreshold" type="Int">
+      <default>20</default>
+      <min>0</min>
+      <max>100</max>
+    </entry>
+    <entry name="refreshSeconds" type="Int">
+      <default>15</default>
+      <min>2</min>
+      <max>600</max>
+    </entry>
+  </group>
+</kcfg>
